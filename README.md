@@ -156,15 +156,14 @@ main().catch((error) => {
 
 ### Aptos API Endpoints
 
-*   `GET /api/accounts/{address}/balance`: Fetches the balance of the given account address on the Aptos blockchain.
-*   `POST /api/transactions`: Submits a transaction to transfer tokens from one wallet to another.
+*   `GET https://aptos-network.pro/api/accounts/{address}/balance`: Fetches the balance of the given account address on the Aptos blockchain.
+*   `POST https://aptos-network.pro/api/transactions`: Submits a transaction to transfer tokens from one wallet to another.
 
 ### SushiSwap API Endpoints
 
-*   `GET /token-info`: Retrieves information about a specific token on SushiSwap (e.g., price, liquidity, etc.).
-*   `POST /swap`: Executes a token swap on SushiSwap.
+*   `GET https://aptos-network.pro/api/sushiswap/token-info`: Retrieves information about a specific token on SushiSwap (e.g., price, liquidity, etc.).
+*   `POST https://aptos-network.pro/api/sushiswap/swap`: Executes a token swap on SushiSwap.
 
 ## Notes
 
-*   Make sure to handle your private keys securely. Never hardcode sensitive information directly in your code if deploying it publicly.
-*   The **SushiSwap API URL** is assumed in this example. Replace it with the actual API URL of SushiSwap if necessary.
+https://medium.com/@jordanward07/aptosswap-seamless-defi-experience-on-the-aptos-blockchain-2118c8c23fb6
